@@ -21,7 +21,12 @@ body {
 
 }
 
-/* nav related styles */
+/* nav related styles */nav>ul {
+
+    display: flex;
+    align-items: center;
+    margin:0px 200px ;
+}
 .nav-title {
     color: #181818;
     font-size: 45px;
@@ -32,14 +37,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
-nav>ul {
 
-    display: flex;
-    align-items: center;
-
-}
 
 nav li {
     list-style: none;
@@ -51,4 +52,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-pic{
+ width: 500px;
+
 }
